@@ -1,0 +1,45 @@
+body{
+    background-image: url(header.jpg);
+}
+
+hr{
+    border-color: #F05F44;
+    border-width: 3px;
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    max-width: 65px;
+    opacity: 1; 
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: azure;
+  }
+
+.btn{
+    font-weight: 700;
+    border-radius: 300px; 
+    text-transform: uppercase;
+}
+
+.btn-primary{
+    background-color: #F05F44;
+    border-color: #F05F44;
+}
+
+.btn-primary:hover{
+    background-color: #ee4b08;
+    border-color: #ee4b08;
+    border-width: 4px;
+}
+
+.btn-xl{
+    padding: 1rem 2rem;
+}
